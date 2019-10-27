@@ -9,6 +9,7 @@ const App = () => {
         <div className="ui container comments">
             <ApprovalCard>
                 <CommentDetail author="Alex" timeAgo="Yesterday" text="fjsdla" avatar={faker.image.avatar()} />
+                <div>hiii you can add more than one component</div>
             </ApprovalCard>
             <ApprovalCard>
                 <CommentDetail author="Jane" timeAgo="2 min ago" text="fjdsafjal" avatar={faker.image.avatar()} />
